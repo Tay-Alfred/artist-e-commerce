@@ -1,5 +1,6 @@
 body{ 
     margin: 0;
+    background-color: #aaa;
 }
 
 h1{
@@ -7,7 +8,7 @@ h1{
     color: #d1c7e6 ;
     
     margin-bottom: 25px;
-    
+    margin-top: 10px;
     padding-left: 0%;
     
     padding-right: 0%;
@@ -22,7 +23,7 @@ h1{
     padding: 50px;
     margin-top: 30px;
     overflow: hidden;
-    background-color: rgb(170, 170, 170, 0.5);
+    background-color: #aaaaaa80;
     opacity: 0.8;
 }
 
@@ -130,13 +131,13 @@ align-items: center;
 }
 
 #registration{
-    background-color:#a97b6f  ;
-    
-    border: 5px solid #F89880;
+    background-color:#6e4896;
+    box-shadow: 3px 5px 15px 5px #d1c7e6;
     
     border-radius: 25px;
     
     padding: 20px;
+    margin-bottom: 70px;
 }
 
 #Mediums{
@@ -181,22 +182,19 @@ h1{
 }
 
 #checkmeout{
-
-    border: 5px solid #F89880;
-    
-    border-radius: 25px;
-    
     padding: 20px;
-    
-    background-color: #a97b6f;
-
+    background-color:#6e4896;
+    box-shadow: 3px 5px 15px 5px #d1c7e6;   
+    border-radius: 25px;
+    margin-bottom: 70px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #cart-table{
-    background-color: #a97b6f;
-
-    border: 5px solid #f89880;
+    border: 2px solid #45216b;
+    border-radius: 25px;
+    padding: 20px;
+    margin-bottom: 70px;
 }
 #homepagetitle{
     font-size: 32px;
@@ -210,13 +208,13 @@ h1{
 }
 
 #login{
-    border: 5px solid #F89880;
-    
-    border-radius: 25px;
-    
-    padding: 20px;
-    
-    background-color: #a97b6f;
+  background-color:#6e4896;
+  box-shadow: 3px 5px 15px 5px #d1c7e6;
+  
+  border-radius: 25px;
+  
+  padding: 20px;
+  margin-bottom: 70px;
 }
 
 .flex-container{
@@ -468,4 +466,24 @@ a.buy-btn{
   background: #FF9800;
   color: #fff;
 }
+}
+/* footer */
+.footer {
+  background-color: #aaaaaa80;
+  color: #faf0ca;
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+}
+.footer a {
+  color: #3a045c;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+.footer a:hover {
+  color: #454c92;
+}
+.footer a:active {
+  color: #454c92;
 }
