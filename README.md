@@ -17,7 +17,7 @@ Artist Addictations is an artistic haven for those passionate about unique and e
 - Product Showcase: The platform features an organized and easily navigable display of available artworks, complete with high-quality images and detailed descriptions.
 
 ## Screenshots
-![Home Page](image.png)
+![Home Page](image-6.png)
 Home Page: Introduces visitors to the platform with a rotating carousel of featured artworks and upcoming collections.
 
 ![Log In](image-1.png)
